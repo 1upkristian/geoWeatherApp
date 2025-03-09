@@ -45,7 +45,7 @@ const GetLocate = ({input, clicked, setClicked}) => {
                     zoomControl: false,
                     attributionControl: false
                 }).setView([lat, lon], 12)
-                L.tileLayer(`https://api.maptiler.com/maps/dataviz-dark/256/{z}/{x}/{y}.png?key=wQhOpso91ozNBOiyzWWP`).addTo(map)
+                L.tileLayer(`https://api.maptiler.com/maps/dataviz-dark/256/{z}/{x}/{y}.png?key=API_KEY`).addTo(map)
                 setMapInstance(map)
             } else {
                 mapInstance.setView([lat, lon], 12)
