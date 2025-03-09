@@ -10,7 +10,7 @@ const WeatherApp = () => {
   const [clicked, setClicked] = useState(false);
 
   const getWeather = () => {
-    const apiKey = "b894e19ea953aa008449737a832feeb6";
+      const apiKey = "API_KEY";
     const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${input}&appid=${apiKey}&units=metric`;
 
     axios.get(apiUrl).then((res) => {
