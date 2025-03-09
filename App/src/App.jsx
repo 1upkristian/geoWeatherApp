@@ -1,6 +1,6 @@
 import axios from "axios";
 import { useState, useContext } from "react";
-import "./searchBarStyle.css";
+import "./style.css";
 import GetLocate from "./geoLocate";
 import GetRestData from "./getWeekData";
 
